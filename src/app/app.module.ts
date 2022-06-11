@@ -15,6 +15,7 @@ import { MerchantModule } from './modules/merchants/merchant.module';
 import { ProviderModule } from './modules/providers/provider.module';
 import { SettingModule } from './modules/settings/setting.module';
 import { WorkerModule } from './modules/workers/worker.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { WorkerModule } from './modules/workers/worker.module';
     ProviderModule,
     SettingModule,
     WorkerModule,
+    SharedModule,
     AppRoutingModule
   ],
   providers: [],
